@@ -12,6 +12,11 @@ fun main() {
     FavoriteFood.ingredients.add("Pepper")
     FavoriteFood.ingredients.add("Lemon")
 
-    //println(FavoriteFood.ingredients)
+    println(FavoriteFood.name)
     FavoriteFood.ingredients.forEach { println(it) }
+
+    FavoriteFood.name = "Pasta"
+    println(FavoriteFood.name)
+
+    println(FavoriteFood.ingredients[1])
 }
